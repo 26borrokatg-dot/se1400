@@ -1,83 +1,47 @@
-<style>body {
-    font-family: 'Arial', Times, serif,
-        sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+body {
+
     background-color: #ffffff;
     color: #666666;
 }
 
-<style>header {
+header {
 
-    font-family: 'georgia', Times, serif,
-        sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #003058;
     color: #ffffff;
 }
 
-<style>h1 {
-    font-family: 'Times New Roman', Times, serif,
-        sans-serif;
+header h1 {
     line-height: 140%;
-    margin: 0;
-    padding: .5;
-    background-color: #ffffff;
-    color: #000000;
+    padding: .5rem;
 }
 
-<style>nav {
-    font-family: 'Times New Roman', Times, serif,
-        sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f3f3f3;
-    color: #000000;
+nav {
+    font-weight: bolder;
+    background-color: #F3F3F3;
+
 }
 
-<style>h2 {
-    font-family: 'georgia', Times, serif,
-        sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #424242;
 }
 
-<style>dt {
-    font-family: 'Times New Roman', Times, serif,
-        sans-serif;
-    font-weight: bold;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #ba1c21;
+dt {
+    color: #003058 font-weight: bolder;
 }
 
-<style>footer {
-    font-family: 'Times New Roman', Times, serif,
-        sans-serif;
-    font-size: .70rem;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #000000;
+.ut {
+    color: #BA1C21
 }
-<style>
-    #wrapper {
-        font-family: 'Times New Roman', Times, serif,
-            sans-serif;
-            width: 80%;
-        line-height: 1.6;
-        margin: auto;
-        padding: 0;
-        background-color: #ffffff;
-        color: #000000;
-    }
+
+footer {
+    font-size: .70rem;
+    font-family: italic;
+    alignment-baseline: central;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto margin-left:auto;
+}
