@@ -1,0 +1,83 @@
+<style>body {
+    font-family: 'Arial', Times, serif,
+        sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #666666;
+}
+
+<style>header {
+
+    font-family: 'georgia', Times, serif,
+        sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #003058;
+    color: #ffffff;
+}
+
+<style>h1 {
+    font-family: 'Times New Roman', Times, serif,
+        sans-serif;
+    line-height: 140%;
+    margin: 0;
+    padding: .5;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+<style>nav {
+    font-family: 'Times New Roman', Times, serif,
+        sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #000000;
+}
+
+<style>h2 {
+    font-family: 'georgia', Times, serif,
+        sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #424242;
+}
+
+<style>dt {
+    font-family: 'Times New Roman', Times, serif,
+        sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #ba1c21;
+}
+
+<style>footer {
+    font-family: 'Times New Roman', Times, serif,
+        sans-serif;
+    font-size: .70rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+<style>
+    #wrapper {
+        font-family: 'Times New Roman', Times, serif,
+            sans-serif;
+            width: 80%;
+        line-height: 1.6;
+        margin: auto;
+        padding: 0;
+        background-color: #ffffff;
+        color: #000000;
+    }
