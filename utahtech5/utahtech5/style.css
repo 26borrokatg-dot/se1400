@@ -199,53 +199,63 @@ nav a:hover {
 #bluebar {
     background-color: #003058;
     grid-row: 1 / 2;
-  grid-column: 1 / -1;
+    grid-column: 1 / -1;
 }
+
 #greybar {
     background-color: #424242;
     grid-row: 2 / 3;
     grid-column: 1 / -1;
 }
+
 @media only screen and (max-width: 1100px) {
-  #wrapper {
-    grid-template-columns: repeat(6, minmax(0, 150px));
-  }
+    #wrapper {
+        grid-template-columns: repeat(6, minmax(0, 150px));
+    }
 }
 
-@media only screen and (max-width: 900px){
-     nav {
-    grid-row: 2 / 3;
-    grid-column: 1 / 5;
-    position: static;
-  }
+@media only screen and (max-width: 900px) {
+    nav {
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+        position: static;
+    }
+
     nav ul {
-    flex-flow: column nowrap;
-  }
-  #homehero,
-  #studenthero,
-  #facultyhero {
-    grid-row: 2 / 3;
-    grid-column: 5 / 8;
-    height: auto;
-  } 
-    main img {
-    float: none;
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-}
-@media only screen and (max-width: 600px)
- header h1 {
-    background-image: none;
-    text-align: center;
-      nav {
-    grid-row: 2 / 3;
-    grid-column: 1 / 9; /* or grid-column: 1 / -1; */
-  }
+        flex-flow: column nowrap;
+    }
+
     #homehero,
-  #studenthero,
-  #facultyhero {
-    display: none;
-  }
-  }
+    #studenthero,
+    #facultyhero {
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
+    }
+
+    main img {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        background-image: none;
+        text-align: center;
+
+        nav {
+            grid-row: 2 / 3;
+            grid-column: 1 / 9;
+            /* or grid-column: 1 / -1; */
+        }
+
+        #homehero,
+        #studenthero,
+        #facultyhero {
+            display: none;
+        }
+    }
+}
