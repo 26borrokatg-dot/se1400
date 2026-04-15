@@ -26,6 +26,80 @@
         <a href="index.html" class="home-link">home</a> &nbsp;
         <a href="art.html" class="home-link">art</a> &nbsp;
 </body>
+<script>
+    window.SnipcartSettings = {
+      publicApiKey: "MTk0Y2ExOWEtNjQ4MC00NjA2LTg3N2YtOGY3Y2JmMDhkZjVhNjM5MTE2OTQ0ODg2MDU3NTU0",
+      loadStrategy: "on-user-interaction",
+    };
 
+    (function () { var c, d; (d = (c = window.SnipcartSettings).version) != null || (c.version = "3.0"); var s, S; (S = (s = window.SnipcartSettings).timeoutDuration) != null || (s.timeoutDuration = 2750); var l, p; (p = (l = window.SnipcartSettings).domain) != null || (l.domain = "cdn.snipcart.com"); var w, u; (u = (w = window.SnipcartSettings).protocol) != null || (w.protocol = "https"); var m, g; (g = (m = window.SnipcartSettings).loadCSS) != null || (m.loadCSS = !0); var y = window.SnipcartSettings.version.includes("v3.0.0-ci") || window.SnipcartSettings.version != "3.0" && window.SnipcartSettings.version.localeCompare("3.4.0", void 0, { numeric: !0, sensitivity: "base" }) === -1, f = ["focus", "mouseover", "touchmove", "scroll", "keydown"]; window.LoadSnipcart = o; document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r(); function r() { window.SnipcartSettings.loadStrategy ? window.SnipcartSettings.loadStrategy === "on-user-interaction" && (f.forEach(function (t) { return document.addEventListener(t, o) }), setTimeout(o, window.SnipcartSettings.timeoutDuration)) : o() } var a = !1; function o() { if (a) return; a = !0; let t = document.getElementsByTagName("head")[0], n = document.querySelector("#snipcart"), i = document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][src$="snipcart.js"]')), e = document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][href$="snipcart.css"]')); n || (n = document.createElement("div"), n.id = "snipcart", n.setAttribute("hidden", "true"), document.body.appendChild(n)), h(n), i || (i = document.createElement("script"), i.src = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.js"), i.async = !0, t.appendChild(i)), !e && window.SnipcartSettings.loadCSS && (e = document.createElement("link"), e.rel = "stylesheet", e.type = "text/css", e.href = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.css"), t.prepend(e)), f.forEach(function (v) { return document.removeEventListener(v, o) }) } function h(t) { !y || (t.dataset.apiKey = window.SnipcartSettings.publicApiKey, window.SnipcartSettings.addProductBehavior && (t.dataset.configAddProductBehavior = window.SnipcartSettings.addProductBehavior), window.SnipcartSettings.modalStyle && (t.dataset.configModalStyle = window.SnipcartSettings.modalStyle), window.SnipcartSettings.currency && (t.dataset.currency = window.SnipcartSettings.currency), window.SnipcartSettings.templatesUrl && (t.dataset.templatesUrl = window.SnipcartSettings.templatesUrl)) } })();
+  </script>
 <h1>Ah so you'd like a piece of your own?</h1>
-<img id="ringmaster" src="img/rabbit.jpeg">
+<div></div>
+
+<div id="shoppingcart">
+    <div>
+        <img id="ringmaster" src="img/rabbit.jpeg">
+        <Heather coustom made jewlry pot>
+            <h3>Jewlry pot</h3>
+            <p>Coustom made jewlry pot</p>
+            <p>$63.99</p>
+            <button class="snipcart-add-item" data-item-id="grey-hoodie" data-item-price="63.99"
+                data-item-description="Heatcoustom made jewlry pot" data-item-image="img/rabbit.jpeg"
+                data-item-name="coustom made jewlry pot">
+                Add to cart
+            </button>
+    </div>
+    <div></div>
+    <div>
+        <img id="ringmaster" src="img/ringmaster.jpg">
+        <full body character drawing>
+            <h3>Full body </h3>
+            <p>Full body character drawing</p>
+            <p>$35.50</p>
+            <button class="snipcart-add-item" data-item-id="full body character drawing" data-item-price="35.50"
+                data-item-description="full body character drawing" data-item-image="img/ringmaster.jpg"
+                data-item-name="full body character drawing">
+                Add to cart
+            </button>
+    </div>
+     <div></div>
+    <div>
+        <img id="ringmaster" src="img/birbs.jpeg">
+        <oil painting>
+            <h3>Oil painting</h3>
+            <p>Oil painting</p>
+            <p>$50.00</p>
+            <button class="snipcart-add-item" data-item-id="oil painting" data-item-price="50.00"
+                data-item-description="oil painting" data-item-image="img/birbs.jpeg"
+                data-item-name="oil painting">
+                Add to cart
+            </button>
+    </div>
+       <div></div>
+    <div>
+        <img id="ringmaster" src="img/Zolo.jpg">
+        <Full sculpture>
+            <h3>Full sculpture</h3>
+            <p>Full sculpture</p>
+            <p>$100.00</p>
+            <button class="snipcart-add-item" data-item-id="Full sculpture" data-item-price="100.00"
+                data-item-description="Full sculpture" data-item-image="img/Zolo.jpg"
+                data-item-name="Full sculpture">
+                Add to cart
+            </button>
+    </div>
+      <div></div>
+    <div>
+        <img id="ringmaster" src="img/odopus.jpg">
+        <Other 2d mediums>
+            <h3>Other 2D mediums</h3>
+            <p>Other 2D mediums</p>
+            <p>$30.00</p>
+            <button class="snipcart-add-item" data-item-id="Other 2d mediums" data-item-price="30.00"
+                data-item-description="Other 2d mediums" data-item-image="img/odopus.jpg"
+                data-item-name="Other 2d mediums">
+                Add to cart
+            </button>
+    </div>
+</div>

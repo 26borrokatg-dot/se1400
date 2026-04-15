@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-    color: #003058
+    color: #bbb1ccd0
 }
 
 #sungod {
@@ -45,7 +45,7 @@ h3 {
 }
 
 p {
-    color: #14006d;
+    color: #cec3fd;
     padding-left: 1em;
 }
 
@@ -108,4 +108,28 @@ grid-row-gap: 0px;
 .container {
   display: grid;
   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+#shoppingcart img {
+  width: 100%;
+  height: auto;
+}
+
+
+#shoppingcart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 900px) {
+  #shoppingcart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 600px) {
+  #shoppingcart {
+    grid-template-columns: 1fr;
+  }
 }
