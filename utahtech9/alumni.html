@@ -17,6 +17,15 @@
 </head>
 
 <body>
+  <script> 
+function validateForm() {
+     if (document.forms[0].myEmail.value == "" ) {
+          alert("Please enter an e-mail address.");
+          return false;
+     } // end if
+     return true;
+} // end function validateForm
+</script>
 
   <div id="wrapper">
     <div id="bluebar"></div>
@@ -33,8 +42,10 @@
         <li><a href="store.html">Store</a></li>
       </ul>
     </nav>
+    <input type="text" name="myEmail" id="myEmail">
     <main>
       <div id="alumnihero"></div>
+
 
     
       <h2>Join Alumni Mailing List</h2>
@@ -60,6 +71,7 @@
 
 <input type="submit" id="mySubmit" value="Submit">
 </form>
+ <form method="post" onsubmit="return validateForm();" action="https://kearl.net/se1400/mail.php"></form>
       <div>
         Utah Tech University<br>
         225 S 700 E<br>
